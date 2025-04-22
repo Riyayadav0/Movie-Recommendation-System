@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Register</title>
+</head>
+<body>
+    <section>
+
+        <div class="register-box">
+                <form action="">
+                  <h2>Register</h2>
+               <div class="input-box">
+                  <span class="icon"><ion-icon name="Username"></ion-icon></span>
+                  <input type="Username" required>
+                  <label>Username</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="Email Id"></ion-icon></span>
+                  <input type="Email Id" required>
+                  <label>Email Id</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="Enter Password"></ion-icon></span>
+                  <input type="Enter Password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                  <label>Enter Password</label>
+                </div>
+                <div class="input-box">
+                  <span class="icon"><ion-icon name="Confirm Password"></ion-icon></span>
+                  <input type="Confirm Password" required>
+                  <label>Confirm Password</label>
+                </div>
+                <div class="condition">
+                  <label><input type="checkbox"> I agree to the terms and conditions </label>
+                </div>
+                <button type='submit'class='submit-btn'><a href="../html/index.html">Register</a></button>
+           </form>
+        </div>
+    </section>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+
+</body>
+</html>
